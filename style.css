@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Lato:wght@400;900&family=Montserrat&family=Noto+Serif+Georgian&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+/* bannar section start */
+.bannar-section{
+    background-image: url(img/bannar-section.png);
+    width: 100%;
+    height: 830px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navitem{
+    margin: 15px 200px !important;
+}
+.nav-item a{
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    font-size: 16px;
+    margin-left: 20px !important;
+
+}
+
+.nav-item a:hover{
+    color: rgb(110, 22, 218) !important;
+
+}
+
+
+.banner-text h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 16px;
+    color: white;
+    margin-top: 35px !important;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-text .bottom button{
+    padding: 5px 20px !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-size: 16px;
+}
+.banner-text .bottom button:hover{
+    background-color: transparent !important;
+}
+
+/* bannar section end */
+
+/*  Card section start */
+
+.card-image img{
+    width: 40px; 
+    height: 40px;
+}
+.card-body h5{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.hr{
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.card-text{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-section{
+   margin: -70px 200px;
+   padding-bottom: 80px;
+}
+.card:hover{
+    background-color: #ff3366 !important;
+
+}
+/*  Card section end */
+
+
+
+/* text details start */
+
+.details-text{
+    padding: 30px;
+}
+.details-text h1{
+    font-size: 37px;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.details-text p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+}
+.details-text btn{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white !important;
+    
+}
+.full-width{
+    background-color: #333333;
+    width: 100%;
+    height: 600px;
+}
+
+.result-section{
+    margin: 30px 150px !important;
+}
+.img-section img{
+    width: 260px;
+    height: 370px;
+    
+}
+
+
+/* text details end */
+
+
+
+/* service section start */
+
+.container-width{
+    background-color: #ffffff;
+    
+
+}
+.Service-section{
+    margin: 80px 140px !important;
+    
+}
+.first-text h4, .scend-text h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif; 
+       
+}
+.first-text p, .scend-text p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2px; 
+    color: #cccccc;   
+}
+
+.service-text h1{
+    font-size: 37px;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 20px;
+}
+
+.service-text p{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    color: #cccccc;
+}
+
+/* service section end */
+
+/* photoGraphy start */
+.photo-galary .nav-item a{
+    color: #cccccc !important;
+    padding: 20px;
+
+}
+.photo-galary .nav-item .active{
+    color: #270505 !important;
+    text-decoration-line: underline;
+    
+}
+
+
+/* photoGraphy end */
+
+
+
+/* trusted clients section start */
+.margin-section{
+    margin: 50px 150px !important;
+}
+.clients-text h1{
+    font-size: 37px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+}
+.clients-text p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #cccccc;
+}
+.learn-btn{
+    border: 1px solid black !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+
+/* trusted clients section end */
+
+
+/* design for website section start */
+
+.bg-image{
+    background-color: #999999;
+}
+.design-section{
+    margin: 20px 150px !important;
+}
+.design-text h1{
+    font-size: 37px;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 80px;
+
+}
+.design-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cccccc;
+
+}
+.design-text img{
+    width: 40px;
+    height: 40px;
+}
+.design-text h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+
+}
+/* design for website section end */
+
+
+/* submit section start */
+.need-margin{
+    margin: 30px 150px !important;
+}
+.submit-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 20px;
+
+}
+.submit-text p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    color: #cccccc;
+
+}
+
+/* submit section end */
+
+
+
+/* footer section start */
+.footer{
+    background-color: #333333;
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer-margin .logo{
+    width: 80px;
+    height: auto;
+    padding-bottom: 40px ;
+    
+}
+.footer-margin{
+    margin: 20px 180px !important;
+    padding: 60px 0px; 
+}
+.footer-margin h6{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif !important;  
+    margin-top: 20px;
+}
+.footer-margin p{
+    font-size: 16px;
+    color: #cccccc;
+    
+}
+.social-section{
+    margin:0 -30px ;
+}
+.nav-section{
+    margin: 0 -120px;
+}
+.input-group{
+    margin: 40px 0;
+}
+.width{
+    width: 430px !important;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+/* footer section end */
+
+
+
+
+@media screen and (max-width:600px) {
+    /* bannar section start */
+    .navitem{
+        margin: 0px !important;
+        
+    }
+    .banner-text h1{
+       font-size: 25px;
+        
+    }
+    .banner-text p{
+        font-size: 12px;
+    }
+    .banner-text .bottom button{
+        margin: 10px;
+        font-size: 12px;
+    }
+    /* bannar section end */
+
+
+    /*  Card section start */
+    .card-section{
+    
+        margin: 0px ;
+    }
+    /*  Card section end */
+
+    /* text details start */
+
+    .result-section{
+        margin: 0!important;
+    }
+    .full-width{
+        height: 700px;
+    }
+    .details-text h1{
+        font-size: 27px;
+    
+    }
+    .img-section img{
+        margin: 0px 5px !important;
+        width: 200px;
+        height: 290px;
+    }
+
+    /* text details end */
+
+
+    /* service section start */
+    .Service-section{
+        margin: 20px 5px !important;
+        
+    }
+    .service-text h1{
+        font-size: 30px;
+        padding: 10px 0px;
+        
+    }
+
+    /* service section end */
+
+
+    /* trusted clients section start */
+    .margin-section{
+    margin: 50px!important;
+    }
+    /* trusted clients section end */
+
+
+    /* design for website section start */
+
+
+.design-section{
+    margin: 10px!important;
+}
+
+ /* design for website section start */
+ .need-margin{
+    margin: 10px !important;
+}
+.submit-text h1{
+    font-size: 40px;
+    
+
+}
+
+
+.footer-margin{
+    margin: 10px !important;
+     
+}
+
+.social-section{
+    margin:0 ;
+}
+.nav-section{
+    margin: 0;
+}
+.input-group{
+    margin: 0;
+}
+.width{
+    width: 300px !important;
+    height: auto;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+}
+
+
+@media screen and (max-width:768px) {
+    /* bannar section start */
+    .navitem{
+        margin: 0px !important;
+        
+    }
+    .banner-text h1{
+        font-size: 35px;
+        
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .banner-text .bottom button{
+        margin: 15px;
+        font-size: 14px;
+    }
+
+    /* bannar section end */
+
+
+    /*  Card section start */
+    .card-section{
+    
+        margin: 0px ;
+    }
+    /*  Card section end */
+
+    /* text details start */
+    .result-section{
+        margin: 0 !important;
+    }
+    
+    .full-width{
+        height: 700px;
+    }
+    .details-text h1{
+        font-size: 27px;
+    
+    }
+    .img-section img{
+        margin: 0px 5px !important;
+        width: 200px;
+        height: 290px;
+    }
+    /* text details end */
+
+
+
+    /* service section start */
+    .Service-section{
+        margin: 20px 5px !important;
+        
+    }
+    .service-text h1{
+        font-size: 35px;
+        padding: 10px 0px;
+        
+    }
+
+    /* service section end */
+
+
+    /* trusted clients section start */
+    .margin-section{
+        margin: 50px!important;
+    }
+    /* trusted clients section end */
+    
+
+        /* design for website section start */
+
+
+.design-section{
+    margin: 10px!important;
+}
+
+ /* design for website section start */
+ .need-margin{
+    margin: 10px !important;
+}
+.submit-text h1{
+    font-size: 50px;
+    
+
+}
+
+.footer-margin{
+    margin: 10px !important;
+     
+}
+
+.social-section{
+    margin:0 ;
+}
+.nav-section{
+    margin: 0;
+}
+.input-group{
+    margin: 0;
+}
+.width{
+    width: 490px !important;
+    height: auto;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .navitem{
+        margin: 0px !important;
+        
+    }
+    .card-section{
+    
+        margin: 0px ;
+    }
+    .result-section{
+        margin: 0 !important;
+    }
+    .img-section img{
+        margin: 20px 5px !important;
+        width: 180px;
+        height: 290px;
+    }
+
+    /* service section start */
+    .Service-section{
+        margin: 20px 5px !important;
+        
+    }
+    .service-text h1{
+        font-size: 35px;
+        padding: 10px 0px;
+        
+    }
+
+    /* service section end */
+
+
+    /* trusted clients section start */
+    .margin-section{
+        margin: 50px!important;
+
+    }
+    /* trusted clients section end */
+
+    /* design for website section start */
+
+
+.design-section{
+    margin: 10px!important;
+}
+
+ /* design for website section start */
+ .need-margin{
+    margin: 10px !important;
+}
+.submit-text h1{
+    font-size: 50px;
+    
+
+}  
+
+
+
+.footer-margin{
+    margin: 10px !important;
+     
+}
+
+.social-section{
+    margin:0 ;
+}
+.nav-section{
+    margin: 0px;
+}
+.nav-section1{
+    margin: -28px !important;
+}
+.input-group{
+    margin: 0;
+}
+.width{
+    width: 300px !important;
+    height: auto;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+    
+}
